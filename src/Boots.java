@@ -32,6 +32,6 @@ class Boots implements Accessory {
     @Override
     public void showEffect() {
         System.out.println("Boots effect: defense boost=" + defenseBoost);
-        System.out.println("");
+        System.out.println();
     }
 }

@@ -7,7 +7,7 @@ class Mage implements RPG_Character {
 
     public Mage(String name) {
         this.name = name;
-        this.health = 80;  // พลังชีวิตเริ่มต้น
+        this.health = 60;  // พลังชีวิตเริ่มต้น
         this.magicPower = 30;  // พลังเวทย์เริ่มต้น
         this.defense = 5;  // พลังป้องกันเริ่มต้น
     }
@@ -33,11 +33,12 @@ class Mage implements RPG_Character {
         defense += 2;
         health += 15;
         System.out.println(name + " levels up! New stats: Health=" + health + ", Magic Power=" + magicPower + ", Defense=" + defense);
+        System.out.println();
     }
 
     @Override
     public void showStatus() {
         System.out.println("Mage " + name + ": Health=" + health + ", Magic Power=" + magicPower + ", Defense=" + defense);
-        System.out.println("");
+        System.out.println();
     }
 }

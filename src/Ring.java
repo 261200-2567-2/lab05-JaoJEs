@@ -35,6 +35,6 @@ class Ring implements Accessory {
     @Override
     public void showEffect() {
         System.out.println("Ring effect: health boost=" + healthBoost + ", magic boost=" + magicBoost);
-        System.out.println("");
+        System.out.println();
     }
 }
