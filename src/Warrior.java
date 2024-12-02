@@ -7,7 +7,7 @@ class Warrior implements RPG_Character {
 
     public Warrior(String name) {
         this.name = name;
-        this.health = 100;  // พลังชีวิตเริ่มต้น
+        this.health = 80;  // พลังชีวิตเริ่มต้น
         this.attackPower = 20;  // พลังโจมตีเริ่มต้น
         this.defense = 10;  // พลังป้องกันเริ่มต้น
     }
@@ -29,15 +29,16 @@ class Warrior implements RPG_Character {
 
     @Override
     public void levelUp() {
+        health += 20;
         attackPower += 5;
         defense += 3;
-        health += 20;
         System.out.println(name + " levels up! New stats: Health=" + health + ", Attack=" + attackPower + ", Defense=" + defense);
+        System.out.println();
     }
 
     @Override
     public void showStatus() {
         System.out.println("Warrior " + name + ": Health=" + health + ", Attack=" + attackPower + ", Defense=" + defense);
-        System.out.println("");
+        System.out.println();
     }
 }
