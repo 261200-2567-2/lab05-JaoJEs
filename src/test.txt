@@ -1,0 +1,52 @@
+C:\Users\ACER\.jdks\openjdk-23.0.1\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.4\lib\idea_rt.jar=5352:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.4\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\ACER\IdeaProjects\lab05-JaoJEs\out\production\java-template RPGGame
+Initial statuses:
+Warrior Thor: Health=80, Attack=20, Defense=10
+
+Mage Gandalf: Health=60, Magic Power=30, Defense=5
+
+
+Leveling up characters...
+Thor levels up! New stats: Health=100, Attack=25, Defense=13
+
+Gandalf levels up! New stats: Health=75, Magic Power=38, Defense=7
+
+
+Battle begins!
+Thor attacks!
+Gandalf defends! Health is now: 57
+Gandalf casts a spell!
+Thor defends! Health is now: 75
+
+Equipping accessories...
+Warrior Thor: Health=75, Attack=25, Defense=13
+
+Equipping Warrior ring to Warrior@4783da3f!
+Thor levels up! New stats: Health=95, Attack=30, Defense=16
+
+Ring effect: health boost=30, magic boost=0
+
+Mage Gandalf: Health=57, Magic Power=38, Defense=7
+
+Equipping Mage ring to Mage@3f91beef!
+Gandalf levels up! New stats: Health=72, Magic Power=46, Defense=9
+
+Ring effect: health boost=10, magic boost=10
+
+Warrior Thor: Health=95, Attack=30, Defense=16
+
+Equipping Warrior boots to Warrior@4783da3f!
+Thor levels up! New stats: Health=115, Attack=35, Defense=19
+
+Mage Gandalf: Health=72, Magic Power=46, Defense=9
+
+Equipping Mage boots to Mage@3f91beef!
+Gandalf levels up! New stats: Health=87, Magic Power=54, Defense=11
+
+
+Final statuses after equipping accessories:
+Warrior Thor: Health=115, Attack=35, Defense=19
+
+Mage Gandalf: Health=87, Magic Power=54, Defense=11
+
+
+Process finished with exit code 0
